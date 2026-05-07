@@ -3,6 +3,11 @@
   "name": "Now Extension for Claude",
   "version": "0.1.0",
   "description": "Automatically adds the current date and time to your messages on Claude.ai, giving Claude real temporal context.",
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
   "permissions": ["storage"],
   "host_permissions": ["https://claude.ai/*"],
   "content_scripts": [
@@ -14,6 +19,11 @@
   ],
   "action": {
     "default_popup": "popup.html",
-    "default_title": "Now Extension"
+    "default_title": "Now Extension",
+    "default_icon": {
+      "16": "icon16.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    }
   }
 }
